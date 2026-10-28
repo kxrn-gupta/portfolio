@@ -19,6 +19,198 @@ const baseHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
 
 // --- Helper Functions to Generate Rich Semantic HTML for Pre-Rendering ---
 
+function generateHomepageHtml() {
+  return `
+    <header class="hero-section" style="max-width:1200px; margin:0 auto; padding:120px 24px 60px; text-align:center;">
+      <div style="display:inline-flex; align-items:center; gap:8px; background:rgba(56,189,248,0.1); border:1px solid rgba(56,189,248,0.3); color:#38bdf8; padding:6px 16px; border-radius:20px; font-size:0.85rem; font-weight:600; margin-bottom:24px;">
+        <span>Rank #6 Worldwide Tauri Contributor &bull; Founder of DuskyMoon Productions</span>
+      </div>
+      <h1 style="font-size:clamp(2.5rem, 6vw, 4.5rem); font-weight:900; line-height:1.1; color:#ffffff; margin:0 0 16px;">
+        Kxrn <span style="background:linear-gradient(135deg,#38bdf8,#818cf8); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">(Karan Gupta)</span>
+      </h1>
+      <p style="font-size:1.25rem; color:#94a3b8; max-width:760px; margin:0 auto 28px; line-height:1.7;">
+        Indian independent music producer and systems software developer. Building high-performance desktop architectures, local-first autonomous AI agent frameworks, and precision audio engineering from New Delhi, India.
+      </p>
+
+      <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-bottom:48px;">
+        <a href="/projects" style="display:inline-flex; align-items:center; gap:8px; padding:12px 24px; background:#38bdf8; color:#0a0a0f; border-radius:12px; font-size:0.95rem; font-weight:700; text-decoration:none;">
+          Explore Architectures &rarr;
+        </a>
+        <a href="/music" style="display:inline-flex; align-items:center; gap:8px; padding:12px 24px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.15); color:#ffffff; border-radius:12px; font-size:0.95rem; font-weight:600; text-decoration:none;">
+          Music Discography &rarr;
+        </a>
+        <a href="/links" style="display:inline-flex; align-items:center; gap:8px; padding:12px 24px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.15); color:#ffffff; border-radius:12px; font-size:0.95rem; font-weight:600; text-decoration:none;">
+          Official Links &nearr;
+        </a>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:16px; max-width:900px; margin:0 auto; text-align:left;">
+        <div style="padding:16px; border:1px solid rgba(255,255,255,0.08); border-radius:10px; background:rgba(15,15,25,0.6);">
+          <strong style="display:block; font-size:1.4rem; color:#38bdf8; font-weight:800;">Rank #6</strong>
+          <span style="font-size:0.85rem; color:#94a3b8;">Worldwide on Tauri Core Plugins Leaderboard</span>
+        </div>
+        <div style="padding:16px; border:1px solid rgba(255,255,255,0.08); border-radius:10px; background:rgba(15,15,25,0.6);">
+          <strong style="display:block; font-size:1.4rem; color:#38bdf8; font-weight:800;">PowerToys</strong>
+          <span style="font-size:0.85rem; color:#94a3b8;">Merged Open-Source Contributor (Microsoft)</span>
+        </div>
+        <div style="padding:16px; border:1px solid rgba(255,255,255,0.08); border-radius:10px; background:rgba(15,15,25,0.6);">
+          <strong style="display:block; font-size:1.4rem; color:#38bdf8; font-weight:800;">winget</strong>
+          <span style="font-size:0.85rem; color:#94a3b8;">Published Win-Optimizer-Pro in MS Registry</span>
+        </div>
+        <div style="padding:16px; border:1px solid rgba(255,255,255,0.08); border-radius:10px; background:rgba(15,15,25,0.6);">
+          <strong style="display:block; font-size:1.4rem; color:#38bdf8; font-weight:800;">Verified Artist</strong>
+          <span style="font-size:0.85rem; color:#94a3b8;">Spotify &amp; Apple Music (DuskyMoon Productions)</span>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="about-section" style="max-width:1200px; margin:0 auto; padding:60px 24px; border-top:1px solid rgba(255,255,255,0.08);">
+      <h2 style="font-size:2rem; font-weight:800; color:#ffffff; margin-bottom:16px;">About &bull; Background &amp; Philosophy</h2>
+      <p style="font-size:1.05rem; line-height:1.8; color:#cbd5e1; max-width:860px; margin-bottom:20px;">
+        Kxrn (Karan Gupta; legal name Chitresh Gupta, born August 4, 2007 in New Delhi, India) operates across systems software architecture and contemporary Indian music production. Combining low-latency systems programming in Rust and C++ with audio dynamics processing and neural orchestration, he builds software utilities and sonic experiences engineered for performance and autonomy.
+      </p>
+      <p style="font-size:1.05rem; line-height:1.8; color:#cbd5e1; max-width:860px; margin-bottom:24px;">
+        He is a Microsoft Learn Student Ambassador (MLSA), Harvard CS50 graduate, and holds verifiable professional certifications signed by Microsoft CEO Satya Nadella. His work spans autonomous AI framework SwarmForge, enterprise desktop sync engines, and commercial discography distributed through DuskyMoon Productions.
+      </p>
+      <div style="display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; color:#38bdf8;">
+        <span>&bull; Google Knowledge Panel: /g/11yd1j6j51</span>
+        <span>&bull; Wikidata: Q141046426</span>
+        <span>&bull; MusicBrainz: efbc6b4f-363b-4bbd-a5db-f4d4e8817607</span>
+        <span>&bull; ORCID: 0009-0005-5460-2941</span>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section" style="max-width:1200px; margin:0 auto; padding:60px 24px; border-top:1px solid rgba(255,255,255,0.08);">
+      <h2 style="font-size:2rem; font-weight:800; color:#ffffff; margin-bottom:24px;">Technical Disciplines &amp; Architecture Stack</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px;">
+        <div style="padding:24px; border:1px solid rgba(255,255,255,0.08); border-radius:12px; background:rgba(15,15,25,0.7);">
+          <h3 style="font-size:1.2rem; color:#38bdf8; margin:0 0 12px;">Systems Engineering &amp; Rust</h3>
+          <p style="font-size:0.9rem; color:#cbd5e1; line-height:1.7;">
+            Native desktop utilities built with Tauri v2, Rust Builder APIs, C++20, and Win32 system APIs. Specialization in local-first data architecture, SQLite Change Data Capture (CDC), and OS performance optimization.
+          </p>
+        </div>
+        <div style="padding:24px; border:1px solid rgba(255,255,255,0.08); border-radius:12px; background:rgba(15,15,25,0.7);">
+          <h3 style="font-size:1.2rem; color:#38bdf8; margin:0 0 12px;">Autonomous AI &amp; Multi-Agent Systems</h3>
+          <p style="font-size:0.9rem; color:#cbd5e1; line-height:1.7;">
+            Hierarchical multi-agent orchestration, dynamic DAG task decomposition, autonomous plan-solve-verify cycles, Microsoft Copilot Studio solutions, and Agentic Resource Discovery (ARD).
+          </p>
+        </div>
+        <div style="padding:24px; border:1px solid rgba(255,255,255,0.08); border-radius:12px; background:rgba(15,15,25,0.7);">
+          <h3 style="font-size:1.2rem; color:#38bdf8; margin:0 0 12px;">Audio Engineering &amp; DSP</h3>
+          <p style="font-size:0.9rem; color:#cbd5e1; line-height:1.7;">
+            Precision sound design and studio engineering inside FL Studio 21 Signature Edition. Multiband sidechain compression, vocal formant sculpting, analog tape saturation, and -14 LUFS mastering for commercial DSP streaming.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section" style="max-width:1200px; margin:0 auto; padding:60px 24px; border-top:1px solid rgba(255,255,255,0.08);">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:32px; flex-wrap:wrap; gap:16px;">
+        <div>
+          <h2 style="font-size:2rem; font-weight:800; color:#ffffff; margin:0 0 8px;">Featured Systems &amp; Projects</h2>
+          <p style="font-size:1rem; color:#94a3b8; margin:0;">Engineered software architectures, AI frameworks, and creative productions.</p>
+        </div>
+        <a href="/projects" style="color:#38bdf8; font-size:0.95rem; font-weight:600; text-decoration:none;">View All 6 Projects &rarr;</a>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:24px;">
+        ${projectsData.map((project) => `
+          <article style="padding:24px; border:1px solid rgba(255,255,255,0.1); border-radius:12px; background:rgba(15,15,25,0.8);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+              <span style="font-size:1.3rem;">${project.icon}</span>
+              <span style="font-size:0.75rem; text-transform:uppercase; color:#38bdf8; background:rgba(56,189,248,0.1); padding:2px 8px; border-radius:8px;">${project.category}</span>
+            </div>
+            <h3 style="font-size:1.3rem; font-weight:700; color:#ffffff; margin:0 0 6px;">
+              <a href="/projects/${project.id}" style="color:#ffffff; text-decoration:none;">${project.title}</a>
+            </h3>
+            <p style="font-size:0.85rem; color:#38bdf8; margin:0 0 10px;">${project.subtitle}</p>
+            <p style="font-size:0.9rem; color:#94a3b8; line-height:1.6; margin-bottom:16px;">${project.description}</p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <a href="/projects/${project.id}" style="color:#38bdf8; font-size:0.85rem; font-weight:600; text-decoration:none;">Architecture &amp; Specs &rarr;</a>
+              ${project.externalUrl ? `<a href="${project.externalUrl}" target="_blank" rel="noopener noreferrer" style="color:#64748b; font-size:0.8rem; text-decoration:none;">${project.ctaText || 'Inspect'} &nearr;</a>` : ''}
+            </div>
+          </article>
+        `).join('\n        ')}
+      </div>
+    </section>
+
+    <section id="music" class="music-section" style="max-width:1200px; margin:0 auto; padding:60px 24px; border-top:1px solid rgba(255,255,255,0.08);">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:28px; flex-wrap:wrap; gap:16px;">
+        <div>
+          <h2 style="font-size:2rem; font-weight:800; color:#ffffff; margin:0 0 8px;">Music Discography &amp; Label</h2>
+          <p style="font-size:1rem; color:#94a3b8; margin:0;">Releases under DuskyMoon Productions &bull; Precision Sound Design &amp; Mastering.</p>
+        </div>
+        <a href="/music" style="color:#38bdf8; font-size:0.95rem; font-weight:600; text-decoration:none;">Full Discography &rarr;</a>
+      </div>
+
+      <div style="padding:28px; border:1px solid rgba(255,255,255,0.1); border-radius:14px; background:rgba(15,15,25,0.85);">
+        <span style="background:rgba(236,72,153,0.1); border:1px solid rgba(236,72,153,0.3); color:#ec4899; padding:3px 10px; border-radius:12px; font-size:0.8rem; font-weight:600;">Single Release &bull; April 19, 2025</span>
+        <h3 style="font-size:1.6rem; color:#ffffff; margin:12px 0 6px;">Sapne &bull; kxrn ft. Ankit</h3>
+        <p style="font-size:0.95rem; color:#cbd5e1; line-height:1.7; margin-bottom:16px;">
+          Atmospheric lo-fi Hindi indie release produced, mixed, and mastered by Kxrn Gupta under DuskyMoon Productions. Features analog tape saturation, custom mid-side stereo EQ, and LUFS-compliant loudness balancing.
+        </p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.85rem; font-weight:600; text-decoration:none;">Listen on Spotify &nearr;</a>
+          <a href="https://music.apple.com/artist/1816229675" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.85rem; font-weight:600; text-decoration:none;">Listen on Apple Music &nearr;</a>
+          <a href="/projects/sapne" style="color:#94a3b8; font-size:0.85rem; text-decoration:none;">Production Specs &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="press" class="press-section" style="max-width:1200px; margin:0 auto; padding:60px 24px; border-top:1px solid rgba(255,255,255,0.08);">
+      <h2 style="font-size:2rem; font-weight:800; color:#ffffff; margin-bottom:24px;">Press Coverage &amp; Industry Citations</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px;">
+        <div style="padding:20px; border:1px solid rgba(255,255,255,0.08); border-radius:10px; background:rgba(15,15,25,0.6);">
+          <strong style="color:#38bdf8; font-size:0.85rem; text-transform:uppercase;">CoderLegion Staff Pick</strong>
+          <h4 style="font-size:1.1rem; color:#ffffff; margin:8px 0;">SwarmForge Autonomous Multi-Agent Framework</h4>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">Selected as Staff Pick for innovative local-first LLM orchestration and hierarchical DAG task decomposition.</p>
+        </div>
+        <div style="padding:20px; border:1px solid rgba(255,255,255,0.08); border-radius:10px; background:rgba(15,15,25,0.6);">
+          <strong style="color:#38bdf8; font-size:0.85rem; text-transform:uppercase;">TechYorker Feature</strong>
+          <h4 style="font-size:1.1rem; color:#ffffff; margin:8px 0;">What to Know About the Music Producer Building Local AI</h4>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">Feature article covering Kxrn's dual career in independent Indian music production and systems engineering.</p>
+        </div>
+        <div style="padding:20px; border:1px solid rgba(255,255,255,0.08); border-radius:10px; background:rgba(15,15,25,0.6);">
+          <strong style="color:#38bdf8; font-size:0.85rem; text-transform:uppercase;">iTechGuides Technical Analysis</strong>
+          <h4 style="font-size:1.1rem; color:#ffffff; margin:8px 0;">Kxrn's Local-First Software Ecosystem</h4>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">Deep architectural review examining Win-Optimizer-Pro and Tauri SQLite synchronization plugins.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" style="max-width:1200px; margin:0 auto; padding:60px 24px; border-top:1px solid rgba(255,255,255,0.08); text-align:center;">
+      <h2 style="font-size:2rem; font-weight:800; color:#ffffff; margin-bottom:12px;">Connect &amp; Collaborate</h2>
+      <p style="font-size:1.05rem; color:#94a3b8; max-width:600px; margin:0 auto 28px; line-height:1.7;">
+        Available for systems architecture consulting, open-source software collaboration, music production, and audio engineering inquiries.
+      </p>
+      <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-bottom:32px;">
+        <a href="mailto:contact@kxrn.is-a.dev" style="padding:10px 20px; background:#38bdf8; color:#0a0a0f; border-radius:8px; font-weight:600; text-decoration:none;">Email: contact@kxrn.is-a.dev</a>
+        <a href="/links" style="padding:10px 20px; border:1px solid rgba(255,255,255,0.2); color:#ffffff; border-radius:8px; font-weight:600; text-decoration:none;">Explore All Verified Links Hub &nearr;</a>
+      </div>
+    </section>
+
+    <footer class="homepage-footer" style="max-width:1200px; margin:0 auto; padding:40px 24px 60px; border-top:1px solid rgba(255,255,255,0.1); font-size:0.85rem; color:#64748b;">
+      <nav aria-label="Comprehensive Site Interlinks" style="display:flex; justify-content:center; flex-wrap:wrap; gap:16px; margin-bottom:24px;">
+        <a href="/" style="color:#94a3b8;">Home</a> &bull;
+        <a href="/projects" style="color:#94a3b8;">All Projects</a> &bull;
+        <a href="/music" style="color:#94a3b8;">Music Discography</a> &bull;
+        <a href="/links" style="color:#94a3b8;">Links Hub</a> &bull;
+        <a href="/projects/swarmforge" style="color:#94a3b8;">SwarmForge</a> &bull;
+        <a href="/projects/win-optimizer-pro" style="color:#94a3b8;">Win-Optimizer-Pro</a> &bull;
+        <a href="/projects/tauri-plugin-sync" style="color:#94a3b8;">tauri-plugin-sync</a> &bull;
+        <a href="/projects/duskymoon-productions" style="color:#94a3b8;">DuskyMoon Productions</a> &bull;
+        <a href="/projects/noir-studio" style="color:#94a3b8;">Noir Studio</a> &bull;
+        <a href="/projects/sapne" style="color:#94a3b8;">Sapne</a> &bull;
+        <a href="/llms.txt" style="color:#94a3b8;">llms.txt</a> &bull;
+        <a href="/llms-full.txt" style="color:#94a3b8;">llms-full.txt</a> &bull;
+        <a href="/index.md" style="color:#94a3b8;">index.md</a> &bull;
+        <a href="/.well-known/ai-catalog.json" style="color:#94a3b8;">ai-catalog.json</a>
+      </nav>
+      <p style="text-align:center;">&copy; 2026 DuskyMoon Productions &bull; Engineered by Kxrn (Karan Gupta / Chitresh Gupta). All rights reserved.</p>
+    </footer>
+  `;
+}
+
 function generateProjectDetailHtml(project) {
   const relatedProjects = projectsData
     .filter((p) => p.id !== project.id)
@@ -98,6 +290,7 @@ function generateProjectDetailHtml(project) {
           </div>
         `).join('\n        ')}
       </div>
+
       <div style="margin-top:24px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.06); font-size:0.85rem;">
         <strong>Global Navigation Hub:</strong>
         <a href="/" style="margin: 0 8px; color:#94a3b8;">Portfolio Home</a> &bull;
@@ -410,6 +603,13 @@ const pages = [
   }
 ];
 
+// 1. Pre-render Root Homepage (dist/index.html)
+const homepageHtml = generateHomepageHtml();
+const preRenderedIndex = baseHtml.replace('<div id="root"></div>', `<div id="root">${homepageHtml}</div>`);
+fs.writeFileSync(indexHtmlPath, preRenderedIndex, 'utf-8');
+console.log(`✓ True static prerendered root homepage -> ${indexHtmlPath}`);
+
+// 2. Pre-render All Subroutes
 for (const page of pages) {
   let html = baseHtml;
 
@@ -451,4 +651,4 @@ for (const page of pages) {
   console.log(`✓ True static prerendered route: ${page.route} -> ${targetFile}`);
 }
 
-console.log('All static route HTML files successfully pre-rendered with full semantic content for search bots and crawlers.');
+console.log('All static route HTML files (including root homepage) successfully pre-rendered with full semantic content for search bots and crawlers.');
