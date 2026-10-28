@@ -1,0 +1,16 @@
+{
+  "name": "SwarmForge Autonomous Agent",
+  "description": "Local-first hierarchical multi-agent orchestration framework for autonomous task decomposition and execution by Kxrn Gupta.",
+  "url": "https://kxrn.is-a.dev/projects/swarmforge",
+  "version": "1.0.0",
+  "provider": {
+    "name": "Kxrn Gupta (DuskyMoon Productions)",
+    "url": "https://kxrn.is-a.dev/"
+  },
+  "capabilities": {
+    "taskDecomposition": true,
+    "localLLM": true,
+    "codeGeneration": true,
+    "audioEngineering": true
+  }
+}

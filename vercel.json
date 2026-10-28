@@ -2,7 +2,7 @@
   "cleanUrls": true,
   "headers": [
     {
-      "source": "/.well-known/ai-catalog.json",
+      "source": "/.well-known/(ai-catalog.json|agent-card.json)",
       "headers": [
         {
           "key": "Content-Type",

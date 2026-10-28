@@ -2,53 +2,33 @@
   "specVersion": "1.0",
   "entries": [
     {
-      "identifier": "urn:air:kxrn-is-a-dev:llm-summary",
-      "displayName": "LLM Summary",
-      "type": "text/plain",
-      "url": "https://kxrn.is-a.dev/llms.txt",
-      "representativeQueries": [
-        "Who is Kxrn Gupta and what are his open-source ranks?",
-        "What are Kxrn's primary software projects and music discography?"
-      ]
-    },
-    {
-      "identifier": "urn:air:kxrn-is-a-dev:full-llm-corpus",
-      "displayName": "Full LLM Knowledge Corpus",
-      "type": "text/plain",
-      "url": "https://kxrn.is-a.dev/llms-full.txt",
-      "representativeQueries": [
-        "Provide complete technical architecture and knowledge corpus for Kxrn Gupta",
-        "What are the detailed specifications of SwarmForge, Win-Optimizer-Pro, and tauri-plugin-sync?"
-      ]
-    },
-    {
-      "identifier": "urn:air:kxrn-is-a-dev:markdown-index",
-      "displayName": "Markdown Index",
-      "type": "text/markdown",
+      "identifier": "urn:air:kxrn-is-a-dev:agent-skills",
+      "displayName": "Agentic Markdown Skills & Knowledge",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://kxrn.is-a.dev/index.md",
       "representativeQueries": [
-        "Give me the clean markdown profile and summary of Kxrn",
-        "Overview of Kxrn's developer credentials, awards, and music catalog in markdown"
+        "Who is Kxrn Gupta and what are his open-source ranks?",
+        "What are Kxrn's developer credentials, awards, and music catalog?"
       ]
     },
     {
-      "identifier": "urn:air:kxrn-is-a-dev:projects-architecture",
-      "displayName": "Projects Architecture Catalogue",
-      "type": "text/html",
-      "url": "https://kxrn.is-a.dev/projects",
+      "identifier": "urn:air:kxrn-is-a-dev:llm-knowledge-corpus",
+      "displayName": "LLM Grounding Corpus",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://kxrn.is-a.dev/llms.txt",
       "representativeQueries": [
-        "What open-source software and tools has Kxrn developed?",
-        "Where can I find architecture specs for Kxrn's software projects?"
+        "Provide technical architecture and knowledge corpus for Kxrn Gupta",
+        "What are the specifications of SwarmForge, Win-Optimizer-Pro, and tauri-plugin-sync?"
       ]
     },
     {
-      "identifier": "urn:air:kxrn-is-a-dev:music-discography",
-      "displayName": "Music Discography & Audio Engineering",
-      "type": "text/html",
-      "url": "https://kxrn.is-a.dev/music",
+      "identifier": "urn:air:kxrn-is-a-dev:swarmforge-agent-card",
+      "displayName": "SwarmForge Autonomous Agent Card",
+      "type": "application/agent-card+json",
+      "url": "https://kxrn.is-a.dev/.well-known/agent-card.json",
       "representativeQueries": [
-        "What songs has Kxrn released under DuskyMoon Productions?",
-        "What audio engineering and DSP techniques does Kxrn use in music production?"
+        "What are the capabilities of SwarmForge Autonomous Agent?",
+        "How does SwarmForge decompose tasks for local LLMs?"
       ]
     }
   ]
