@@ -104,7 +104,7 @@ const linkGroups = [
       {
         title: 'GitHub Repositories',
         desc: '@karan5028ji · SwarmForge & Open Source',
-        url: 'https://github.com/karan5028ji',
+        url: 'https://github.com/kxrn-gupta',
         icon: '💻',
       },
     ],

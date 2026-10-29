@@ -506,7 +506,7 @@ function generateLinksHtml() {
         <ul style="list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px;">
           <li><a href="https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.9rem;">Spotify Verified Artist &nearr;</a></li>
           <li><a href="https://music.apple.com/artist/1816229675" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.9rem;">Apple Music Artist &nearr;</a></li>
-          <li><a href="https://github.com/karan5028ji" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.9rem;">GitHub Profile (@karan5028ji) &nearr;</a></li>
+          <li><a href="https://github.com/kxrn-gupta" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.9rem;">GitHub Profile (@karan5028ji) &nearr;</a></li>
           <li><a href="https://www.linkedin.com/in/karanguptadev" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.9rem;">LinkedIn Profile &nearr;</a></li>
           <li><a href="https://share.google/5AfjCZgxu7EtcNFup" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.9rem;">Google Knowledge Panel &nearr;</a></li>
           <li><a href="https://www.wikidata.org/wiki/Q141046426" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; font-size:0.9rem;">Wikidata Entity (Q141046426) &nearr;</a></li>

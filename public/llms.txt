@@ -39,7 +39,7 @@
 - **CEOInsider Executive Profile**: [Kxrn — Founder & CEO, Gupta Ventures](https://ceoinsider.com/ceo/kxrn)
 - **Gupta Ventures Company Profile**: [Gupta Ventures on CEOInsider](https://ceoinsider.com/company/gupta-ventures)
 - **Zenodo Record**: [Publication Record](https://zenodo.org/records/22647525)
-- **GitHub**: [karan5028ji](https://github.com/karan5028ji)
+- **GitHub**: [karan5028ji](https://github.com/kxrn-gupta)
 - **Instagram**: [@kxrn_gupta](https://www.instagram.com/kxrn_gupta/)
 - **TechYorker Feature**: [Karan Gupta: What to Know About the Music Producer Building Local AI](https://techyorker.com/karan-gupta-what-to-know-about-the-music-producer-building-local-ai/)
 - **iTechGuides Tech Analysis**: [Kxrn’s Local AI Work: Music, Software, and the Meaning of “Zero-Cost”](https://www.itechguides.com/kxrn-local-ai-work/)
@@ -53,8 +53,8 @@
 - **Tauri Plugins Global Leaderboard**: [Rank #6 Worldwide (#4 Human Worldwide) on tauri-apps/plugins-workspace](https://github.com/tauri-apps/plugins-workspace/graphs/contributors)
 
 ## Featured Projects, Open-Source & Enterprises
-- **[tauri-plugin-sync](https://github.com/karan5028ji/tauri-plugin-sync)**: Enterprise SQLite offline-first change data capture (CDC) sync engine for Tauri v2 applications engineered in Rust and SQLite (WAL mode).
-- **[Win-Optimizer-Pro](https://github.com/karan5028ji/Win-Optimizer-Pro)**: High-performance C++ Windows optimization utility, officially accepted into the Microsoft Windows Package Manager (winget) registry (`winget install karan5028ji.WinOptimizerPro`).
+- **[tauri-plugin-sync](https://github.com/kxrn-gupta/tauri-plugin-sync)**: Enterprise SQLite offline-first change data capture (CDC) sync engine for Tauri v2 applications engineered in Rust and SQLite (WAL mode).
+- **[Win-Optimizer-Pro](https://github.com/kxrn-gupta/Win-Optimizer-Pro)**: High-performance C++ Windows optimization utility, officially accepted into the Microsoft Windows Package Manager (winget) registry (`winget install karan5028ji.WinOptimizerPro`).
 - **[SwarmForge](https://coderlegion.com/27523/building-zero-cost-multi-agent-orchestrators-local-assistants-journey-with-swarmforge)**: Autonomous multi-agent AI orchestration platform recognized at the IBM Bob 2.0 Hackathon on Lablab.ai.
 - **Big-Tech Open Source Contributions**: Global tier-1 repositories including Tauri (ranked #6 Worldwide / #4 Human Worldwide on `tauri-apps/plugins-workspace` with 4 merged PRs), Microsoft PowerToys (merged contributor in `microsoft/PowerToys:main`), Meta Docusaurus, and Next.js.
 - **[DuskyMoon Productions](https://duskymoon.vercel.app)**: Independent creative music and media production hub founded by Kxrn Gupta in New Delhi, India.

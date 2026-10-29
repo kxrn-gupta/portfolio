@@ -40,7 +40,7 @@ const socialPlatforms = [
     name: 'GitHub',
     desc: 'Software Engineering & Dev Projects',
     Icon: CodeBracketIcon,
-    url: 'https://github.com/karan5028ji',
+    url: 'https://github.com/kxrn-gupta',
     color: '#00c2ff',
   },
   {

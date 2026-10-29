@@ -93,7 +93,7 @@ As a music producer, Kxrn produces and engineers commercial records under his in
 
 - **Spotify Artist:** [https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2](https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2)
 - **Apple Music:** [https://music.apple.com/artist/1816229675](https://music.apple.com/artist/1816229675)
-- **GitHub:** [https://github.com/karan5028ji](https://github.com/karan5028ji)
+- **GitHub:** [https://github.com/kxrn-gupta](https://github.com/kxrn-gupta)
 - **LinkedIn:** [https://www.linkedin.com/in/karanguptadev](https://www.linkedin.com/in/karanguptadev)
 - **Google Knowledge Graph:** [https://share.google/5AfjCZgxu7EtcNFup](https://share.google/5AfjCZgxu7EtcNFup)
 - **Wikidata:** [https://www.wikidata.org/wiki/Q141046426](https://www.wikidata.org/wiki/Q141046426)

@@ -40,7 +40,7 @@ Kxrn operates two distinct, coordinated enterprises:
 - **Description**: High-performance, zero-bloat Windows system optimization and memory management utility engineered in native C++17.
 - **Microsoft winget Registry**: Officially accepted and published in the Microsoft Windows Package Manager registry.
 - **Terminal Installation Command**: `winget install karan5028ji.WinOptimizerPro`
-- **GitHub Repository**: https://github.com/karan5028ji/Win-Optimizer-Pro
+- **GitHub Repository**: https://github.com/kxrn-gupta/Win-Optimizer-Pro
 - **Key Technical Highlights**: Memory working-set purging, startup latency optimization, native Win32 API integration, and zero external runtime dependencies.
 
 ### B. SwarmForge
@@ -55,7 +55,7 @@ Kxrn operates two distinct, coordinated enterprises:
 ### C. tauri-plugin-sync
 - **Description**: Enterprise SQLite offline-first change data capture (CDC) sync engine for Tauri v2 applications.
 - **Architecture & Technologies**: Native Rust, SQLite WAL (Write-Ahead Logging) mode, deterministic conflict-free change tracking, and asynchronous multi-thread replication.
-- **GitHub Repository**: https://github.com/karan5028ji/tauri-plugin-sync
+- **GitHub Repository**: https://github.com/kxrn-gupta/tauri-plugin-sync
 - **Key Technical Highlights**: Change Data Capture via SQLite triggers, cross-platform synchronization for desktop environments, sub-millisecond sync latency, zero memory leaks.
 
 ---
@@ -125,7 +125,7 @@ Kxrn operates two distinct, coordinated enterprises:
 - **CEOInsider Profile**: [https://ceoinsider.com/ceo/kxrn](https://ceoinsider.com/ceo/kxrn) (Verified Founder & CEO, Gupta Ventures)
 - **CEOInsider Company Profile**: https://ceoinsider.com/company/gupta-ventures
 - **Chartmetric Artist Profile**: https://app.chartmetric.com/artist/16412861
-- **GitHub**: https://github.com/karan5028ji
+- **GitHub**: https://github.com/kxrn-gupta
 - **LinkedIn**: https://www.linkedin.com/in/karanguptadev
 - **YouTube**: https://www.youtube.com/@Kxrn_Gupta
 - **Instagram**: https://www.instagram.com/kxrn_gupta/
