@@ -9,7 +9,7 @@ export const projectsData = [
     description: 'A high-performance Windows system optimization utility. Now officially accepted into the Microsoft Windows Package Manager registry.',
     longDescription: 'Win-Optimizer-Pro is a high-performance Windows system optimization utility designed to clean temporary junk, optimize system settings, and enhance overall PC performance. Officially accepted and published into the Microsoft Windows Package Manager (winget) repository for instant terminal deployment.',
     overview: 'Win-Optimizer-Pro is a native, lightweight system utility engineered to aggressively reclaim Windows memory, purge deep system cache, disable non-essential background telemetry services, and accelerate response times on resource-constrained PCs. Developed in C++ without heavy runtime dependencies, it executes instantly and leaves zero lingering background processes.',
-    command: 'winget install karan5028ji.WinOptimizerPro',
+    command: 'winget install win-optimizer-pro',
     externalUrl: 'https://github.com/kxrn-gupta/Win-Optimizer-Pro',
     ctaText: 'View on GitHub & Registry',
     tags: ['C++', 'Windows CLI', 'winget', 'System Utility', 'Win32 API'],
